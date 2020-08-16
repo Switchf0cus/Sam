@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poiret+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #232931;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.container-fluid.main{
+    position: relative; /* To make the navbar positions relative to this container */
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .navbar {
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    background-color: rgb(35, 41, 49, 0,2)!important;
+    box-shadow: 0px 1.5px 5px rgba(0, 0, 0, 0.2);xllg
+  }
+  .navbar-brand img {
+    height: 3rem;
+  }
+  .navbar-nav li {
+    padding-right: 0.7rem;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #4ecca3;
+    padding-top: 0.8rem;
+  }
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #2d705a;
+  }
+  .navbar-toggler-icon {
+    border-color: #4ecca3;
+    border-radius: 0%;
+    border-color: none;
+  }
+  .navbar-toggler:active{
+      border-color: #4ecca3;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+  .dropdown-menu {
+    background-color: #e8dfcd;
+    border-color: #dad0ba;
+    padding: 0.5rem 1.2rem;
+    width: 40%;
+    margin: auto;
+  }
+  
+  a.nav-link {
+    font-family: 'Poiret One', cursive;
+    color: #4ecca3;
+  }
+  
+  .carousel .background {
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+  }
+  
+  @media (max-width:991px) {
+    .carousel .background {
+      background-size: cover; /* To make the background image looks good */
+    }
+  }
+  
+  .carousel .background.a {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/patrick-fore-0gkw_9fy0eQ-unsplash.jpg);
+  }
+  
+  
+  
+  .carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition: opacity 0.5s; /* The 0.5s describes the duration to make the opacity from 0 to 1 */
+  }
+  
+  .carousel-fade .carousel-inner .active {
+    opacity: 1;
+  }
+  
+  /* CSS Hack to trigger GPU for smooth transition */
+  @media all and (transform-3d),
+  (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  /* CSS Hack to trigger GPU for smooth transition */
+  
+.covertext {
+    position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
+    top: 30%; /* The distance between the div with the top of document */
+    left: 0vw; /* Make the div full width */
+    right: 0vw; /* Make the div full width */
+}
+  
+  .title {
+    font-family: 'Poiret One', cursive;   
+    font-weight: 400;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-family: 'Poiret One', cursive;
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+
+
+
+
+.explore {
+    text-align: center;
+    margin-top: 20vh;
+}
+.fa-chevron-down{
+    color: #4ecca3;
+}
+  
+
+/* ####### FOOTER ####### */
+footer {
+    background-color: #232931;
+    color: white;
+    padding: 2rem 0 3rem;
+  }
+  footer img {
+    height: 4rem;
+    margin: 1.5rem 0;
+  }
+  footer p {
+    color: white;
+    font-style: normal !important;
+  }
+  footer strong {
+    color: #4ecca3;
+  }
+  footer a {
+    color: rgb(255, 254, 254);
+  }
+  .footer-li{
+    list-style-type: none;
+  }
+  
+  
+  hr.socket {
+    width: 100%;
+    border-top: 0.05rem solid #2d705a;
+    margin-top: 1rem;
+  }
+  .fa-facebook-official,
+  .fa-instagram,
+  .fa-pinterest-square {
+    color: #4ecca3;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .fa-facebook-official:hover,
+  .fa-instagram:hover,
+  .fa-pinterest-square:hover {
+    color: #2d705a;
+  }
+  
+  .copyright {
+    color: #4ecca3;
+  }
+
+
+
+ /* ABOUT ME */
+ .container-fluid{
+     margin-top: 5.8rem;
+ }
+ .col-lg-4{
+     min-width: 350px;
+     height: 100vh;
+ }
+ .fit-image{
+     width: 100%;
+     height: 100vh;
+     object-fit: cover;
+ }
+ .col-lg-8{
+     background-color: #ff00d4;
+     height: 100vh;
+ }
+  
+  
