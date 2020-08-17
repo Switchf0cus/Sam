@@ -131,7 +131,7 @@ iframe {
 .contact1 {
   width: 100%;
   min-height: 100%;
-  padding: 5rem;
+  padding: 7rem 3rem 5rem 3rem;
 
   background: #232931;
   background: -webkit-linear-gradient(left, #2a3b36, #3f9175);
@@ -150,7 +150,7 @@ iframe {
 }
 
 .container-contact1 {
-  width: 1200px;
+  width: 1000px;
   background: #ffffff;
   border-radius: 10px;
   overflow: hidden;
@@ -164,13 +164,13 @@ iframe {
   justify-content: space-between;
   align-items: center;
 
-  padding: 50px 50px 50px 50px;
+  padding: 80px 150px 50px 150px;
 }
 
 /*------------------------------------------------------------------
 [  ]*/
 .contact1-pic {
-  width: 150px;
+  width: 250px;
   color: #4ecca3;
 }
 

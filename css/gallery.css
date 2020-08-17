@@ -1,4 +1,4 @@
-.gallery {
+/* .gallery {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -33,7 +33,7 @@
 
 .row{
     margin: 0;
-    padding: 3rem 0rem 3rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
 }
 .btn-outline-secondary{
     margin-top: 4rem;
@@ -41,4 +41,4 @@
     margin-left: 1rem;
     border-color: #4ecca3;
     color: #4ecca3;
-}
+} */
