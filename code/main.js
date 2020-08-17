@@ -1,24 +1,37 @@
-$(document).ready(function() {
+const current = document.querySelector('#current');
+const imgs = document.querySelectorAll('.imgs img', '#caption');
+const opacity = 0.6;
 
-    console.log("connected")
+//Set first image opacity
+imgs[0].style.opacity = opacity;
 
-/* When your mouse cursor enter the background, the fading won't pause and keep playing */ 
-  $('.carousel').carousel({
-        pause: "false" /* Change to true to make it paused when your mouse cursor enter the background */
-        
-    });
+imgs.forEach(img => img.addEventListener('click', imgClick)); 
 
-    $(function() {
-        var selectedClass = "";
-        $(".filter").click(function(){
-        selectedClass = $(this).attr("data-rel");
-        $("#gallery").fadeTo(100, 0.1);
-        $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
-        setTimeout(function() {
-        $("."+selectedClass).fadeIn().addClass('animation');
-        $("#gallery").fadeTo(300, 1);
-        }, 300);
-        });
-        });
 
-});
+    function imgClick(e){
+        //Reset the opacity
+        imgs.forEach(img => img.style.opacity = 1)
+        //change current image to sc of clicked image
+        current.src = e.target.src;
+
+        //Add fade in class
+        current.classList.add('fade-in');
+
+        //remove fade-in class after .5 seconds
+
+        setTimeout(() => current.classList.remove('fade-in'),500);
+
+        //change the opacity to ovacity var
+        e.target.style.opacity = opacity;
+    }
+
+
+    // function switchStyle() {
+    //     if (document.getElementById('styleSwitch').checked) {
+    //       document.getElementById('gallery').classList.add("custom");
+    //       document.getElementById('exampleModal').classList.add("custom");
+    //     } else {
+    //       document.getElementById('gallery').classList.remove("custom");
+    //       document.getElementById('exampleModal').classList.remove("custom");
+    //     }
+    //   }
