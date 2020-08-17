@@ -15,20 +15,20 @@
   line-height: 0;
 }
 
-.box > img {
-  width: 200%;
-  height: calc(100% - 10vh);
-  object-fit: cover; 
-  transition: .5s;
-}
+// .box > img {
+//   width: 200%;
+//   height: calc(100% - 10vh);
+//   object-fit: cover; 
+//   transition: .5s;
+// }
 
-.box > span {
-  font-size: 3.8vh;
-  display: block;
-  text-align: center;
-  height: 10vh;
-  line-height: 2.6;
-}
+// .box > span {
+//   font-size: 3.8vh;
+//   display: block;
+//   text-align: center;
+//   height: 10vh;
+//   line-height: 2.6;
+// }
 
 .box:hover { flex: 1 1 50%; }
 .box:hover > img {

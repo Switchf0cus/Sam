@@ -118,12 +118,12 @@ html {
   padding: 2rem 0rem 3rem 0rem;
 }
 .card{
-  width: 30rem;
+  width: 20rem;
   background-color: #393e46;
   border-color: #4ecca3;
   border-width: .1rem;
   border-radius: 6px ;
-  margin: 6rem 0rem 6rem 0rem;
+  margin: auto;
 
 }
 .card:hover{
@@ -270,9 +270,12 @@ background-color: lightgray;
   margin: .5rem;
   color: #eeeeee;
 }
-.video-title h1{
+.video-title{
+  padding-top: 1rem;
   margin-top: 4rem;
+  margin-bottom: 3rem;
   color: white !important;
+ 
 }
 .card-body{
   padding: 1rem;
