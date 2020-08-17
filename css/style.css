@@ -11,9 +11,6 @@ body{
 html {
     scroll-behavior: smooth;
   }
-.offset{
-  margin-top: -2rem;
-}
 .container-fluid{
   margin: 0 !important;
   padding: 0 !important;
@@ -22,6 +19,7 @@ html {
     position: relative; /* To make the navbar positions relative to this container */
     padding: 0;
     height: 100vh;
+    width: 100%;
   }
   
   .navbar {
@@ -144,6 +142,7 @@ html {
 .jumbotron{
   background-color: #eeeeee;
   border-radius: 0;
+  width: 100%;
   padding-top: 5.5rem;
 }
 .lead{
@@ -162,6 +161,7 @@ footer {
     color: #eeeeee;
     padding: 2rem 0 3rem;
     margin-top: 4rem;
+    width: 100%;
   }
   footer img {
     height: 4rem;
