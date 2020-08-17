@@ -43,7 +43,10 @@
     color: #4ecca3;
 } */
 
-
+.gallery-title{
+    margin: 8rem 0rem 5rem 0rem;
+    color: #eeeeee;
+}
   
  .responsive{
      width: 100%;
