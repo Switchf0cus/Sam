@@ -5,7 +5,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    background-color: #393f4d;
+    background-color: #232931;
     overflow-x: hidden;
 }
 html {
@@ -29,7 +29,7 @@ html {
     font-weight: 700;
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
-    background-color: #393f4d !important;
+    background-color: rgb(35, 41, 49, 0,2)!important;
     box-shadow: 0px 1.5px 5px rgba(0, 0, 0, 0.2);
   }
   .navbar-brand img {
@@ -39,20 +39,20 @@ html {
     padding-right: 0.7rem;
   }
   .navbar-dark .navbar-nav .nav-link {
-    color: #feda6a;
+    color: #4ecca3;
     padding-top: 0.8rem;
   }
   .navbar-dark .navbar-nav .nav-link.active,
   .navbar-dark .navbar-nav .nav-link:hover {
-    color: #feda6a !important;
+    color: #2d705a;
   }
   .navbar-toggler-icon {
-    border-color: #feda6a;
+    border-color: #4ecca3;
     border-radius: 0%;
     border-color: none;
   }
   .navbar-toggler:active{
-      border-color: #feda6a;
+      border-color: #4ecca3;
   }
   .navbar .navbar-collapse {
     text-align: center;
@@ -61,7 +61,7 @@ html {
   
   a.nav-link {
     font-family: 'Poiret One', cursive;
-    color: #d4d4dc !important;
+    color: #4ecca3 !important;
   }
   
   .carousel .background {
@@ -95,14 +95,14 @@ html {
     font-family: 'Poiret One', cursive;   
     font-weight: 400;
     font-size: 60px;
-    color: #feda6a;
+    color: #eeeeee;
     text-align: center;
   }
   
   .subtitle {
     font-family: 'Poiret One', cursive;
     font-size: 23px;
-    color: #feda6a;
+    color: #eeeeee;
     text-align: center;
   }
   
@@ -111,7 +111,7 @@ html {
     margin-top: 20vh;
 }
 .fa-chevron-down{
-    color: #d4d4dc;
+    color: #4ecca3;
 }
   
 /* Current Seciton */
@@ -121,35 +121,30 @@ html {
 }
 .card{
   width: 20rem;
-  background-color: #1d1e22;
-  border-color: #d4d4dc;
+  background-color: #393e46;
+  border-color: #4ecca3;
   border-width: .1rem;
   border-radius: 6px ;
   margin: auto;
+
 }
 .card:hover{
-  box-shadow: 0px 2px 10px #d4d4dc;
+  box-shadow: 0px 2px 10px rgba(78, 204, 162, 0.596);
 }
 .card-title, .card-text{
   color: #eeeeee;
 }
 
-.btn-outline-secondary{
-  color: #1d1e22;
-  border-color: #1d1e22;
-}
-.btn-outline-secondary:hover{
-  background-color: #1d1e22;
-}
+
 .btn-outline-light{
-  color: #d4d4dc;
-  border-color: #d4d4dc;
+  color: #4ecca3;
+  border-color: #4ecca3;
 }
 .btn-outline-light:hover{
-  background-color: #d4d4dc;
+  background-color: #4ecca3;
 }
 .jumbotron{
-  background-color: #d4d4dc;
+  background-color: #eeeeee;
   border-radius: 0;
   width: 100%;
   padding-top: 5.5rem;
@@ -166,8 +161,8 @@ html {
 
 /* ####### FOOTER ####### */
 footer {
-    background-color: #1d1e22;
-    color: #feda6a;
+    background-color: #393e46;
+    color: #eeeeee;
     padding: 2rem 0 3rem;
     margin-top: 4rem;
     width: 100%;
@@ -177,14 +172,14 @@ footer {
     margin: 1.5rem 0;
   }
   footer p {
-    color: #d4d4dc;
+    color: #eeeeee;
     font-style: normal !important;
   }
   footer strong {
     color: #4ecca3;
   }
   footer a {
-    color: #feda6a;
+    color: #eeeeee;
   }
   .footer-li{
     list-style-type: none;
@@ -193,24 +188,24 @@ footer {
   
   hr.socket {
     width: 100%;
-    border-top: 0.05rem solid #d4d4dc;
+    border-top: 0.05rem solid #2d705a;
     margin-top: 1rem;
   }
   .fa-facebook-official,
   .fa-instagram,
   .fa-pinterest-square {
-    color: #d4d4dc;
+    color: #4ecca3;
     font-size: 2rem;
     padding: 1rem;
   }
   .fa-facebook-official:hover,
   .fa-instagram:hover,
   .fa-pinterest-square:hover {
-    color: #feda6a;
+    color: #2d705a;
   }
   
   .copyright {
-    color: #d4d4dc;
+    color: #4ecca3;
   }
 
 
@@ -223,7 +218,7 @@ footer {
    padding: 0 !important;
  }
  .col-sm-7{
-   background-color: #d4d4dc;
+   background-color: #393e46;
    height: 100vh;
    color: #eeeeee;
    padding: 1.5rem;
@@ -231,11 +226,10 @@ footer {
  }
  .col-sm-7 h2{
    margin: 4rem;
-   color: #1d1e22;
  
  }
  .col-sm-7 p{
-   color: #1d1e22;
+   color: #eeeeee;
  }
 .image-box{
 height: 100%;
@@ -247,8 +241,6 @@ height: 100%;
 
 .jumbotron-about{
   margin-bottom: 0;
-  color: #feda6a;
-  background-color: #1d1e22;
 }
 /* .col-sm-4{
   width: 90%;
@@ -260,7 +252,7 @@ background-color: lightgray;
  height: 100vh;
  margin: 0;
  padding: 0 !important;
- background-color: #d4d4dc;
+ background-color: lightgray;
 }
 .about-col-4{
   padding: 10rem 4rem 4rem 4rem!important;
@@ -270,14 +262,14 @@ background-color: lightgray;
  transition: .5s;
 }
 .about-col-4 h3{
-  color: #feda6a;
+  color: #4ecca3;
 }
 .about-title-3{
-  color: #feda6a;
+  color: #4ecca3;
   margin: 4rem 0rem ;
 }
 .about-text-3{
-  color: #d4d4dc;
+  color: #eeeeee;
   padding: 1.1rem;
   text-align: justify;
 }
