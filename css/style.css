@@ -223,6 +223,7 @@ footer {
    color: #eeeeee;
    padding: 1.5rem;
    text-align: justify;
+   padding-right: 50px;
  }
  .col-sm-7 h2{
    margin: 4rem;
@@ -273,7 +274,9 @@ background-color: lightgray;
   padding: 1.1rem;
   text-align: justify;
 }
-
+.col-sm-12{
+  padding: 50px;
+}
 /********** Projects **************/
 
 .col-12 p{
